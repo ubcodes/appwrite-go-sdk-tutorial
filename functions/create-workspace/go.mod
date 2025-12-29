@@ -1,10 +1,7 @@
-module create-workspace
+module openruntimes/handler
 
-go 1.22.5
+go 1.23.0
 
-replace appwrite-go-sdk-tutorial => ../../
+require github.com/open-runtimes/types-for-go/v4 v4.0.6
 
-require (
-	appwrite-go-sdk-tutorial v0.0.0
-	github.com/appwrite/sdk-for-go v0.15.0
-)
+require github.com/appwrite/sdk-for-go v0.0.1-rc.2
