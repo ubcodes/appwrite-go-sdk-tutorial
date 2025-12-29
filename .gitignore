@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Appwrite
+appwrite.json
+
+# Build artifacts
+dist/
+build/
+*.tar.gz
+
+# Logs
+*.log
+
+# Examples (not needed for function deployment)
+examples/
+
+
